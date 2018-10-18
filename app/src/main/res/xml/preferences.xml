@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_drop_down_notify"
+        android:title="Show Drop Down Notifications"
+        android:summary="Show drop down notifications when you cross a town or state border"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_enable_sound"
+        android:title="Enable Sound"
+        android:summary="Enable text-to-speech sounds"
+        android:defaultValue="true" />
+</PreferenceScreen>
